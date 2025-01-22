@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Student Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #003366;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section h2 {
+            color: #004080;
+        }
+        .login-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .login-buttons a {
+            padding: 10px 20px;
+            background-color: #004080;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .login-buttons a:hover {
+            background-color: #0066cc;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to [University Name] Student Management System</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#information">University Information</a>
+        <a href="#login">Login</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About [University Name]</h2>
+            <p>[University Name] is a prestigious institution committed to excellence in education, research, and innovation. Our mission is to empower students with knowledge, skills, and values to excel in their careers and contribute to society.</p>
+        </section>
+        <section id="information">
+            <h2>University Information</h2>
+            <p>Founded in [Year], [University Name] offers a wide range of undergraduate, postgraduate, and doctoral programs. With state-of-the-art facilities and a distinguished faculty, the university ensures a vibrant academic environment.</p>
+        </section>
+        <section id="login">
+            <h2>Login</h2>
+            <div class="login-buttons">
+                <a href="/adminLogin">Admin Login</a>
+                <a href="/teacher-login">Teacher Login</a>
+                <a href="/student-login">Student Login</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 [University Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
